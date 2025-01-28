@@ -38,6 +38,31 @@ products.
 - **Bootstrap**: For responsive design and layout.
 - **Fetch API**: For loading content dynamically.
 
+## HTML
+1. Bootstrap -> Lib za voo je unutar head
+
+## Javascript
+
+#### main.js
+1. Storage
+   * storing lang (sr, en), 
+   * forms -> aboutout.html forma -> mailing.html
+   * get and store string or JSON
+2. Languange functions
+   * loadLanguage() -> aboutout.html forma -> mailing.html
+
+## Cockies 
+1. writeCookie
+2. readCookie
+3. saveFormData -> calling setLocalStorageJson()
+
+#### loadTemplate.js
+For fetching (injecting):
+1. head (no translation)
+2. nav (en,sr)
+3. content (en,sr)
+4. footer (en,sr)
+
 ## Contact
 
 - **Address**: Dositeja Obradovica 40, Trsic, 15300 Loznica, Serbia
@@ -46,7 +71,7 @@ products.
 ## Follow Us
 
 - [Instagram](https://www.instagram.com)
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
+- [LinkedIn](https://www.linkedin.com/in/andjelina-vasilic-04b289253/)
 
 ## Documentation
 

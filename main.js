@@ -1,8 +1,8 @@
-setLocalStorage = (key, value) => {
+setLocalStorage = (key, value) => { // for language
     localStorage.setItem(key, value);
 }
 
-setLocalStorageJson = (key, value) => {
+setLocalStorageJson = (key, value) => { // for form
     localStorage.setItem(key, JSON.stringify(value));
 }
 
@@ -44,18 +44,8 @@ const loadLanguage = () => {
     if (newPath && currentPath !== newPath) {
         window.location.pathname = newPath;
     }
-}// setActiveLanguage = (language) => {
-//     const dropdownItems = document.querySelectorAll('.dropdown-item');
-//     dropdownItems.forEach(item => {
-//         if (item.getAttribute('onclick').includes(language)) {
-//             item.classList.add('active');
-//         } else {
-//             item.classList.remove('active');
-//         }
-//     });
-// }
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     loadLanguage();
-    // setActiveLanguage(language);
 });
